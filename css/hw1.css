@@ -28,6 +28,7 @@ nav a:hover
 {
     background-color: #BB8FCE ;
 }
+/*
 img{
     display:block;
     width:200px;
@@ -37,9 +38,8 @@ img{
 .left 
 {
       background-color: #42828A ;
-      display: inline-block;
       border-spacing: 0;
-       border: 100% solid transparent #000000; 
+       border: 1% solid transparent #000000; 
 }
 .right
 {
@@ -50,6 +50,30 @@ body
 {
     margin: .5%;
     padding:.5%;
+    font-size: 110%;
+}*/
+img{
+    display:block;
+    background-color: #42828A ;
+    width:200px;
+    padding:3%;
+    margin:1%;
+     border: 50% solid transparent #000000; 
+}
+.left 
+{
+      display: inline-block;
+      border-spacing: 0;
+}
+.right
+{
+    width:80%;
+    float:right;
+}
+body
+{
+    margin: 1%;
+    padding:1%;
     font-size: 110%;
 }
 table
@@ -63,7 +87,7 @@ th
 {
     text-align:center;
     background-color:#abbfc5;
-    padding: .5%;
+    padding:.5%;
     margin-top:0%;
     border-bottom:solid 3px #000000;
     border-radius: 5px 5px 0px 0px;
